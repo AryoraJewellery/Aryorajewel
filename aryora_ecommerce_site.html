@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryora - Premium Silver Jewellery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+        :root {
+            --primary-green: #1e3f20;
+            --secondary-green: #2c5e30;
+            --cream: #f9f6f0;
+            --dark-cream: #e8e4dc;
+            --gold: #c8a57e;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--cream);
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-green);
+            color: white;
+            padding: 0.75rem 2rem;
+            text-transform: uppercase;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-green);
+        }
+
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow fixed top-0 w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between h-16 items-center">
+            <a href="#" class="text-xl font-bold text-green-900">ARYORA</a>
+            <div class="hidden md:flex space-x-6 text-gray-700">
+                <a href="#">Home</a>
+                <a href="#">Shop All</a>
+                <a href="#">Collections</a>
+                <a href="#">Try At Home</a>
+                <a href="#">Size Guide</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Career</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="pt-24 text-center bg-[var(--cream)] px-6">
+        <h1 class="text-5xl font-bold mb-4 text-[var(--primary-green)]">Light. Legacy. Aryora.</h1>
+        <p class="text-gray-700 max-w-xl mx-auto mb-6">Timeless silver jewellery crafted for elegance and legacy.</p>
+        <a href="#" class="btn-primary">Shop Now</a>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="py-16 bg-white px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Featured Collections</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            <!-- Add featured collection cards -->
+            <div class="bg-[var(--cream)] p-4 shadow hover:shadow-lg transition">Collection 1</div>
+            <div class="bg-[var(--cream)] p-4 shadow hover:shadow-lg transition">Collection 2</div>
+            <div class="bg-[var(--cream)] p-4 shadow hover:shadow-lg transition">Collection 3</div>
+        </div>
+    </section>
+
+    <!-- Bestsellers -->
+    <section class="py-16 bg-[var(--dark-cream)] px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Bestsellers</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+            <!-- Add bestselling product cards -->
+            <div class="bg-white p-4 shadow">Product 1</div>
+            <div class="bg-white p-4 shadow">Product 2</div>
+            <div class="bg-white p-4 shadow">Product 3</div>
+            <div class="bg-white p-4 shadow">Product 4</div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 px-6 bg-white">
+        <h2 class="text-3xl font-bold text-center mb-12">What Our Clients Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <!-- Add testimonials -->
+            <div class="p-6 shadow bg-[var(--cream)]">"Beautiful designs!" - Priya</div>
+            <div class="p-6 shadow bg-[var(--cream)]">"Loved the Try At Home option." - Sanya</div>
+            <div class="p-6 shadow bg-[var(--cream)]">"Great customer service!" - Anita</div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed -->
+    <section class="py-16 bg-[var(--dark-cream)] px-6 text-center">
+        <h2 class="text-3xl font-bold mb-6">#AryoraMoments</h2>
+        <p class="text-gray-700 mb-8">Follow us <a href="https://instagram.com/aryora.legacy" class="text-green-900 font-medium">@aryora.legacy</a></p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 max-w-6xl mx-auto">
+            <!-- Placeholder images -->
+            <div class="bg-white h-28"></div>
+            <div class="bg-white h-28"></div>
+            <div class="bg-white h-28"></div>
+            <div class="bg-white h-28"></div>
+            <div class="bg-white h-28"></div>
+            <div class="bg-white h-28"></div>
+        </div>
+    </section>
+
+    <!-- Virtual Appointment Banner -->
+    <section class="py-12 bg-[var(--primary-green)] text-white text-center">
+        <h2 class="text-2xl font-bold mb-4">Personalized Virtual Styling</h2>
+        <p class="mb-6">Book a virtual appointment with our experts to find your perfect piece.</p>
+        <a href="#" class="btn-primary">Book Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <h3 class="font-semibold mb-4">ARYORA</h3>
+                <p>Luxury silver jewellery, handcrafted with heritage.</p>
+                <p class="mt-2"><i class="fas fa-envelope"></i> aryora.legacy@gmail.com</p>
+                <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/aryora.legacy" target="_blank">@aryora.legacy</a></p>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-4">Customer Care</h3>
+                <ul class="space-y-2">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Try At Home</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-4">Newsletter</h3>
+                <input type="email" placeholder="Email address" class="p-2 w-full text-black">
+                <button class="mt-2 btn-primary w-full">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/918808828646" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+
+</html>
